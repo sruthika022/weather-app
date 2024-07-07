@@ -1,0 +1,86 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('background.jpg'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the image */
+    color: #ffffff;
+  }
+  
+  /* Headings */
+  h1 {
+    color: #ffffff; /* Set a color that contrasts with the background image */
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Weather info box */
+  #weather-info {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    border: none;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    color: #000000; /* Set the text color to black */
+  }
+  
+  /* Input styling */
+  input[type="text"] {
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 34px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    background-color: #004494;
+    transform: translateY(1px);
+  }
+  
+  /* Error message styling */
+  #error-message {
+    color: #ff4c4c;
+    background-color: rgba(255, 76, 76, 0.2);
+    border: 1px solid #ff4c4c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
